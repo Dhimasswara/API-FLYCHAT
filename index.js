@@ -31,6 +31,21 @@ io.on(
   'connection',
   (socket) => {
     console.log('device connect with id = ' + socket.id);
+    socket.on('join-room',({room,username})=>{
+      socket.join(room)
+      const current = new Date();
+      let time = current.toLocaleTimeString();
+      socket.broadcast.to(room).emit('notifAdmin', {
+          sender:"Admin",
+          body:`Selamat bergabung ${username}`,
+          date:time
+      })
+    })
+    socket.on('messageRoom',({sender,body,room})=>{
+      const current = new Date();
+      let time = current.toLocaleTimeString();
+      io.to(room).emit('newMessage', {sender,body,date:time})
+    })
     socket.on('sendMessage', (data) => {
       console.log(data);
       io.emit('incoming', data);
