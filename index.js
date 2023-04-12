@@ -10,14 +10,16 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: '*',
-    methods: "GET, POST, PUT, DELETE",
+    origin: '*', 
+    credentials: true,
+    method: "GET, POST, PUT, DELETE"
   },
 });
 app.use(express.json());
 app.use(
   cors({
     origin: '*',
+    credentials: true,
     methods: "GET, POST, PUT, DELETE",
   })
 );
