@@ -145,11 +145,11 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Related Project
 
-:rocket: [`Flychat Dialogue`](https://github.com/dhimasswara/API-FLYCHAT)
+:rocket: [`Backend Flychat`](https://github.com/dhimasswara/API-FLYCHAT)
 
-:rocket: [`Frontend Dialogue`](https://github.com/dhimasswara/UI-FLYCHAT)
+:rocket: [`Frontend Flychat`](https://github.com/dhimasswara/UI-FLYCHAT)
 
-:rocket: [`Demo Dialogue`](https://api-flychat-production.up.railway.app/)
+:rocket: [`Demo Flychat`](https://api-flychat-production.up.railway.app/)
 
 <!-- CONTACT -->
 
