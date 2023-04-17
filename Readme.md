@@ -66,6 +66,8 @@ This is an example of how to list things you need to use the software and how to
 | [CORS]          | npm i cors          |
 | [Eslint]        | npm i eslint        |
 | [jsonwebtoken]  | npm i jsonwebtoken  |
+| [cloudinary]  | npm i cloudinary  |
+
 
 [express]: http://expressjs.com
 [nodemon]: https://www.npmjs.com/package/nodemon
@@ -74,6 +76,8 @@ This is an example of how to list things you need to use the software and how to
 [cors]: https://www.npmjs.com/package/cos
 [eslint]: https://eslint.org/
 [jsonwebtoken]: https://www.npmjs.com/package/jsonwebtoken
+[cloudinary]: https://www.npmjs.com/package/cloudinary
+
 
 ### Requirements
 
@@ -141,11 +145,11 @@ Contributions are what make the open source community such an amazing place to b
 
 ## Related Project
 
-:rocket: [`Flychat Dialogue`](https://github.com/dhimasswara/API-FLYCHAT)
+:rocket: [`Backend Flychat`](https://github.com/dhimasswara/API-FLYCHAT)
 
-:rocket: [`Frontend Dialogue`](https://github.com/dhimasswara/UI-FLYCHAT)
+:rocket: [`Frontend Flychat`](https://github.com/dhimasswara/UI-FLYCHAT)
 
-:rocket: [`Demo Dialogue`](https://api-flychat-production.up.railway.app/)
+:rocket: [`Demo Flychat`](https://api-flychat-production.up.railway.app/)
 
 <!-- CONTACT -->
 
