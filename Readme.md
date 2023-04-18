@@ -7,7 +7,7 @@
   <p align="center">
     <a href="https://github.com/Dhimasswara/API-FLYCHAT"><strong>Explore the docs »</strong></a>
     <br />
-    <a href="https://api-flychat-production.up.railway.app">View Demo</a>
+    <a href="https://ui-flychat.vercel.app/">View Demo</a>
     ·
   </p>
 </p>
