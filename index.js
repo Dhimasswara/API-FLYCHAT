@@ -10,7 +10,7 @@ const app = express();
 const httpServer = createServer(app);
 const io = new Server(httpServer, {
   cors: {
-    origin: 'https://ui-flychat.vercel.app', 
+    origin: ['https://ui-flychat.vercel.app','http://localhost:3000'] ,
     credentials: true,
     method: "GET, POST, PUT, DELETE"
   },
