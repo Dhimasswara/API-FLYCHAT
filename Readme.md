@@ -149,7 +149,7 @@ Contributions are what make the open source community such an amazing place to b
 
 :rocket: [`Frontend Flychat`](https://github.com/dhimasswara/UI-FLYCHAT)
 
-:rocket: [`Demo Flychat`](https://api-flychat-production.up.railway.app/)
+:rocket: [`Demo Flychat`](https://ui-flychat.vercel.app/)
 
 <!-- CONTACT -->
 
